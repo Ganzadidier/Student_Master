@@ -11,5 +11,5 @@ for question in question_data:
     question_bank.append(new_question)
 
 
-quiz = QuizBrain(question_bank)
+quiz = QuizBrain()
 quiz_ui = QuizInterface(quiz)
